@@ -67,3 +67,8 @@
 #--------------------------------------------------------------------
 
 # logger.threshold = 4
+
+BPJS_CONS_ID=your_cons_id
+BPJS_SECRET_KEY=your_secret_key
+BPJS_API_URL=https://dvlp.bpjs-kesehatan.go.id:8888/VClaim-rest/
+BPJS_NEW_API_URL=https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/
