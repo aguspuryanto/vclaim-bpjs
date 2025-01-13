@@ -80,3 +80,16 @@ SATUSEHAT_BASE_URL=https://satu-sehat.kemkes.go.id/api
 EKLAIM_CONS_ID=your_cons_id
 EKLAIM_SECRET_KEY=your_secret_key
 EKLAIM_BASE_URL=https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/
+
+# https://github.com/aamdsam/bridging-bpjs
+# VCLAIM
+# BPJS_CONSID="2112121"
+# BPJS_SCREET_KEY="121212121"
+# BPJS_BASE_URL="https://new-api.bpjs-kesehatan.go.id:8080"
+# BPJS_SERVICE_NAME="new-vclaim-rest"
+
+# PCARE
+# BPJS_CONSID="2112121"
+# BPJS_SCREET_KEY="121212121"
+# BPJS_BASE_URL="https://new-api.bpjs-kesehatan.go.id:8080"
+# BPJS_SERVICE_NAME="pcare-rest-v3.0"

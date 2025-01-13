@@ -59,4 +59,20 @@ class BpjsController extends BaseController
 
         return $this->response->setJSON($response);
     }
+
+    // https://faskes.bpjs-kesehatan.go.id/aplicares/Pencarian/getData
+    // {\"kdppk\":\"22070101\",\"jnsppk\":\"P\"}
+    public function getData()
+    {
+        $bpjs = new BpjsHelper();
+
+        $data = [
+            "kdppk" => "22070101",
+            "jnsppk" => "P"
+        ];
+
+        $response = $bpjs->sendRequest('Pencarian/getData', 'POST', $data);
+
+        return $this->response->setJSON($response);
+    }
 }

@@ -15,6 +15,9 @@ class BpjsHelper
         $this->cons_id = env('BPJS_CONS_ID');
         $this->secret_key = env('BPJS_SECRET_KEY');
         $this->base_url = env('BPJS_API_URL');
+
+        // https://new-api.bpjs-kesehatan.go.id/pcare-rest-v3.0
+        // https://dvlp.bpjs-kesehatan.go.id:8888/trust-mark/portal.html
     }
 
     private function getSignature()
