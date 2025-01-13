@@ -72,3 +72,11 @@ BPJS_CONS_ID=your_cons_id
 BPJS_SECRET_KEY=your_secret_key
 BPJS_API_URL=https://dvlp.bpjs-kesehatan.go.id:8888/VClaim-rest/
 BPJS_NEW_API_URL=https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/
+
+SATUSEHAT_CLIENT_ID=your_client_id
+SATUSEHAT_CLIENT_SECRET=your_client_secret
+SATUSEHAT_BASE_URL=https://satu-sehat.kemkes.go.id/api
+
+EKLAIM_CONS_ID=your_cons_id
+EKLAIM_SECRET_KEY=your_secret_key
+EKLAIM_BASE_URL=https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/
